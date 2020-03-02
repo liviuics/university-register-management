@@ -1,0 +1,578 @@
+;;; 
+Export: Release 11.2.0.2.0 - Production on Sat Jan 25 23:44:45 2020
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Starting "SYSTEM"."SYS_EXPORT_FULL_01":  system/******** full=Y directory=DUMP_DIR dumpfile=DB11G.dmp logfile=expdpDB11G.log 
+Estimate in progress using BLOCKS method...
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 166.8 MB
+Processing object type DATABASE_EXPORT/TABLESPACE
+Processing object type DATABASE_EXPORT/PROFILE
+Processing object type DATABASE_EXPORT/SYS_USER/USER
+Processing object type DATABASE_EXPORT/SCHEMA/USER
+Processing object type DATABASE_EXPORT/ROLE
+Processing object type DATABASE_EXPORT/GRANT/SYSTEM_GRANT/PROC_SYSTEM_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/GRANT/SYSTEM_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/ROLE_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/DEFAULT_ROLE
+Processing object type DATABASE_EXPORT/SCHEMA/TABLESPACE_QUOTA
+Processing object type DATABASE_EXPORT/RESOURCE_COST
+Processing object type DATABASE_EXPORT/SCHEMA/DB_LINK
+Processing object type DATABASE_EXPORT/TRUSTED_DB_LINK
+Processing object type DATABASE_EXPORT/SCHEMA/SEQUENCE/SEQUENCE
+Processing object type DATABASE_EXPORT/SCHEMA/SEQUENCE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/DIRECTORY/DIRECTORY
+Processing object type DATABASE_EXPORT/DIRECTORY/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/CONTEXT
+Processing object type DATABASE_EXPORT/SCHEMA/PUBLIC_SYNONYM/SYNONYM
+Processing object type DATABASE_EXPORT/SCHEMA/SYNONYM
+Processing object type DATABASE_EXPORT/SCHEMA/TYPE/TYPE_SPEC
+Processing object type DATABASE_EXPORT/SCHEMA/TYPE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SYSTEM_PROCOBJACT/PRE_SYSTEM_ACTIONS/PROCACT_SYSTEM
+Processing object type DATABASE_EXPORT/SYSTEM_PROCOBJACT/PROCOBJ
+Processing object type DATABASE_EXPORT/SYSTEM_PROCOBJACT/POST_SYSTEM_ACTIONS/PROCACT_SYSTEM
+Processing object type DATABASE_EXPORT/SCHEMA/PROCACT_SCHEMA
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/TABLE
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/PRE_TABLE_ACTION
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/INDEX/INDEX
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/COMMENT
+Processing object type DATABASE_EXPORT/SCHEMA/PACKAGE/PACKAGE_SPEC
+Processing object type DATABASE_EXPORT/SCHEMA/PACKAGE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/FUNCTION/FUNCTION
+Processing object type DATABASE_EXPORT/SCHEMA/FUNCTION/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/PROCEDURE/PROCEDURE
+Processing object type DATABASE_EXPORT/SCHEMA/PROCEDURE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/PACKAGE/COMPILE_PACKAGE/PACKAGE_SPEC/ALTER_PACKAGE_SPEC
+Processing object type DATABASE_EXPORT/SCHEMA/FUNCTION/ALTER_FUNCTION
+Processing object type DATABASE_EXPORT/SCHEMA/PROCEDURE/ALTER_PROCEDURE
+Processing object type DATABASE_EXPORT/SCHEMA/VIEW/VIEW
+Processing object type DATABASE_EXPORT/SCHEMA/VIEW/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type DATABASE_EXPORT/SCHEMA/VIEW/COMMENT
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type DATABASE_EXPORT/SCHEMA/PACKAGE_BODIES/PACKAGE/PACKAGE_BODY
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/INDEX/FUNCTIONAL_AND_BITMAP/INDEX
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/INDEX/STATISTICS/FUNCTIONAL_AND_BITMAP/INDEX_STATISTICS
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/POST_TABLE_ACTION
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/TRIGGER
+Processing object type DATABASE_EXPORT/SCHEMA/POST_SCHEMA/PROCOBJ
+Processing object type DATABASE_EXPORT/SCHEMA/POST_SCHEMA/PROCACT_SCHEMA
+Processing object type DATABASE_EXPORT/AUDIT
+. . exported "APEX_040000"."WWV_FLOW_PAGE_PLUGS"         27.22 MB   38938 rows
+. . exported "APEX_040000"."WWV_FLOW_STEP_ITEMS"         19.43 MB   46651 rows
+. . exported "APEX_040000"."WWV_FLOW_STEP_PROCESSING"    11.28 MB   10257 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSHEETS"         4.569 MB    1499 rows
+. . exported "APEX_040000"."WWV_FLOW_STEPS"              4.299 MB    8803 rows
+. . exported "APEX_040000"."WWV_FLOW_STEP_ITEM_HELP"     5.125 MB   29041 rows
+. . exported "APEX_040000"."WWV_FLOW_REGION_REPORT_COLUMN"  4.223 MB   26764 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSHEET_COLUMNS"  3.877 MB   16979 rows
+. . exported "APEX_040000"."WWV_FLOW_TEMPLATES"          2.490 MB     492 rows
+. . exported "APEX_040000"."WWV_FLOW_LIST_ITEMS"         2.832 MB   14271 rows
+. . exported "APEX_040000"."WWV_FLOW_STEP_BUTTONS"       2.931 MB   18803 rows
+. . exported "APEX_040000"."WWV_FLOW_STEP_VALIDATIONS"   2.938 MB    9353 rows
+. . exported "APEX_040000"."WWV_FLOW_LIST_OF_VALUES_DATA"  2.349 MB   24097 rows
+. . exported "APEX_040000"."WWV_FLOW_MESSAGES$"          1.839 MB   19840 rows
+. . exported "APEX_040000"."WWV_FLOW_STEP_BRANCHES"      2.308 MB   14486 rows
+. . exported "APEX_040000"."WWV_FLOW_LIST_TEMPLATES"     935.4 KB     780 rows
+. . exported "APEX_040000"."WWV_FLOW_PAGE_PLUG_TEMPLATES"  1.560 MB    1709 rows
+. . exported "APEX_040000"."WWV_FLOW_FLASH_MAP_REGIONS"  836.8 KB   13891 rows
+. . exported "APEX_040000"."WWV_FLOW_LISTS_OF_VALUES$"   1.172 MB    5801 rows
+. . exported "APEX_040000"."WWV_FLOW_MENU_OPTIONS"       911.2 KB    7843 rows
+. . exported "APEX_040000"."WWV_FLOW_STEP_COMPUTATIONS"  1.230 MB    4941 rows
+. . exported "APEX_040000"."WWV_FLOW_DATA"               27.03 KB     229 rows
+. . exported "APEX_040000"."WWV_FLOW_ACTIVITY_LOG1$"     15.78 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_ACTIVITY_LOG2$"     57.61 KB     532 rows
+. . exported "APEX_040000"."WWV_FLOW_ROW_TEMPLATES"      489.8 KB     507 rows
+. . exported "APEX_040000"."WWV_FLOW_PROCESSING"         585.6 KB     284 rows
+. . exported "APEX_040000"."WWV_FLOW_PAGE_DA_ACTIONS"    409.1 KB    2846 rows
+. . exported "APEX_040000"."WWV_FLOW_CUSTOM_AUTH_SETUPS"  44.60 KB      77 rows
+. . exported "APEX_040000"."WWV_FLOW_BUTTON_TEMPLATES"   171.3 KB     431 rows
+. . exported "APEX_040000"."WWV_FLOW_COLLECTION_MEMBERS$"  32.64 KB       6 rows
+. . exported "APEX_040000"."WWV_FLOW_LISTS"              222.0 KB    2908 rows
+. . exported "APEX_040000"."WWV_FLOW_FLASH_CHART5_SERIES"  118.0 KB     106 rows
+. . exported "APEX_040000"."WWV_FLOW_PAGE_DA_EVENTS"     176.8 KB    1225 rows
+. . exported "APEX_040000"."WWV_FLOW_PLUGINS"            156.5 KB     213 rows
+. . exported "APEX_040000"."WWV_FLOW_PLUGIN_ATTRIBUTES"  170.7 KB     478 rows
+. . exported "APEX_040000"."WWV_FLOW_SC_TRANS"           11.36 KB      14 rows
+. . exported "APEX_040000"."WWV_FLOW_SHORTCUTS"          113.1 KB     218 rows
+. . exported "APEX_040000"."WWV_DEMO_DEPT"               8.335 KB       5 rows
+. . exported "APEX_040000"."WWV_FLOW_FLASH_CHARTS_5"     102.1 KB      94 rows
+. . exported "APEX_040000"."WWV_FLOW_RANDOM_IMAGES"      50.37 KB      42 rows
+. . exported "APEX_040000"."WWV_FLOW_REGION_UPD_RPT_COLS"  125.5 KB    1869 rows
+. . exported "APEX_040000"."WWV_FLOW_SECURITY_SCHEMES"   100.9 KB     255 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSHEET_RPTS"     127.2 KB     387 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_TRIGGERS"        75.60 KB       7 rows
+. . exported "APEX_040000"."WWV_FLOWS"                   116.6 KB      57 rows
+. . exported "APEX_040000"."WWV_FLOW_ADVISOR_CHECKS"     26.42 KB      23 rows
+. . exported "APEX_040000"."WWV_FLOW_BANNER"             11.37 KB      57 rows
+. . exported "APEX_040000"."WWV_FLOW_CAL_TEMPLATES"      104.6 KB      61 rows
+. . exported "APEX_040000"."WWV_FLOW_FIELD_TEMPLATES"    81.46 KB     248 rows
+. . exported "APEX_040000"."WWV_FLOW_INSTALL"            35.35 KB       2 rows
+. . exported "APEX_040000"."WWV_FLOW_ITEMS"              55.11 KB     654 rows
+. . exported "APEX_040000"."WWV_FLOW_PAGE_CACHE"         33.04 KB       9 rows
+. . exported "APEX_040000"."WWV_FLOW_PAGE_GENERIC_ATTR"  9.546 KB      62 rows
+. . exported "APEX_040000"."WWV_FLOW_PLUGIN_FILES"       13.05 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_POPUP_LOV_TEMPLATE"  82.42 KB      57 rows
+. . exported "APEX_040000"."WWV_FLOW_REPORT_LAYOUTS"     29.82 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_SESSIONS$"          13.28 KB       8 rows
+. . exported "APEX_040000"."WWV_FLOW_SHARED_QUERIES"     11.67 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_SW_SQL_CMDS"        18.82 KB      41 rows
+. . exported "APEX_040000"."WWV_FLOW_THEMES"             23.38 KB      15 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_CONSTRAINTS"     10.28 KB      20 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_TABLES"          33.26 KB       9 rows
+. . exported "ICS"."DEMO_PRODUCT_INFO"                   24.87 KB      10 rows
+. . exported "APEX_040000"."WWV_COLUMN_EXCEPTIONS"       5.968 KB       3 rows
+. . exported "APEX_040000"."WWV_DEMO_EMP"                14.73 KB     103 rows
+. . exported "APEX_040000"."WWV_FLOWS_RESERVED"          5.843 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_ACTIVITY_LOG_NUMBER$"  5.468 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_ADVISOR_CATEGORIES"  6.007 KB       6 rows
+. . exported "APEX_040000"."WWV_FLOW_ADVISOR_CHECK_MSGS"  7.851 KB      35 rows
+. . exported "APEX_040000"."WWV_FLOW_ALT_CONFIG_PICK"    8.203 KB      37 rows
+. . exported "APEX_040000"."WWV_FLOW_APPLICATION_GROUPS"  7.960 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_BUILDER_AUDIT_TRAIL"  9.515 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_CALS"               32.36 KB      61 rows
+. . exported "APEX_040000"."WWV_FLOW_CHARSETS"           7.781 KB      32 rows
+. . exported "APEX_040000"."WWV_FLOW_CLICKTHRU_LOG_NUMBER$"  5.882 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_COLLECTIONS$"       8.226 KB       6 rows
+. . exported "APEX_040000"."WWV_FLOW_COMPANIES"          11.38 KB       4 rows
+. . exported "APEX_040000"."WWV_FLOW_COMPANY_SCHEMAS"    7.539 KB       2 rows
+. . exported "APEX_040000"."WWV_FLOW_COMPANY_TYPES"      6.593 KB      32 rows
+. . exported "APEX_040000"."WWV_FLOW_COMPUTATIONS"       30.83 KB      92 rows
+. . exported "APEX_040000"."WWV_FLOW_COUNTRIES"          9.820 KB     240 rows
+. . exported "APEX_040000"."WWV_FLOW_DB_AUTH"            5.476 KB       2 rows
+. . exported "APEX_040000"."WWV_FLOW_DEVELOPERS"         7.921 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_DEVELOPER_ROLES"    5.921 KB       9 rows
+. . exported "APEX_040000"."WWV_FLOW_DICTIONARY_VIEWS"   26.44 KB      59 rows
+. . exported "APEX_040000"."WWV_FLOW_DUAL100"            5.703 KB     100 rows
+. . exported "APEX_040000"."WWV_FLOW_FLASH_MAP_FILES"    27.14 KB     320 rows
+. . exported "APEX_040000"."WWV_FLOW_FLASH_MAP_FOLDERS"  6.195 KB      22 rows
+. . exported "APEX_040000"."WWV_FLOW_FND_USER"           25.74 KB       2 rows
+. . exported "APEX_040000"."WWV_FLOW_HNT_COLUMN_INFO"    28.75 KB      58 rows
+. . exported "APEX_040000"."WWV_FLOW_HNT_TABLE_INFO"     9.375 KB       8 rows
+. . exported "APEX_040000"."WWV_FLOW_ICON_BAR"           43.21 KB     143 rows
+. . exported "APEX_040000"."WWV_FLOW_LANGUAGES"          28.49 KB     132 rows
+. . exported "APEX_040000"."WWV_FLOW_LANGUAGE_MAP"       19.54 KB     126 rows
+. . exported "APEX_040000"."WWV_FLOW_LOV_VALUES"         8.867 KB       6 rows
+. . exported "APEX_040000"."WWV_FLOW_MENUS"              10.12 KB      45 rows
+. . exported "APEX_040000"."WWV_FLOW_MENU_TEMPLATES"     26.62 KB      49 rows
+. . exported "APEX_040000"."WWV_FLOW_PAGE_GROUPS"        15.94 KB     134 rows
+. . exported "APEX_040000"."WWV_FLOW_PASSWORD_HISTORY"   6.773 KB       3 rows
+. . exported "APEX_040000"."WWV_FLOW_PATCHES"            15.65 KB      48 rows
+. . exported "APEX_040000"."WWV_FLOW_PICK_END_USERS"     6.015 KB       4 rows
+. . exported "APEX_040000"."WWV_FLOW_PICK_PAGE_VIEWS"    6.093 KB       5 rows
+. . exported "APEX_040000"."WWV_FLOW_PLATFORM_PREFS"     9.554 KB      26 rows
+. . exported "APEX_040000"."WWV_FLOW_PLUGIN_ATTR_VALUES"  26.44 KB     248 rows
+. . exported "APEX_040000"."WWV_FLOW_PLUGIN_EVENTS"          9 KB       4 rows
+. . exported "APEX_040000"."WWV_FLOW_PREFERENCES$"       7.359 KB       9 rows
+. . exported "APEX_040000"."WWV_FLOW_PROVISION_COMPANY"  20.19 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_QUERY_COLUMN"       12.62 KB      51 rows
+. . exported "APEX_040000"."WWV_FLOW_QUERY_CONDITION"    10.16 KB       4 rows
+. . exported "APEX_040000"."WWV_FLOW_QUERY_DEFINITION"   8.375 KB       4 rows
+. . exported "APEX_040000"."WWV_FLOW_QUERY_OBJECT"       9.007 KB       4 rows
+. . exported "APEX_040000"."WWV_FLOW_RESTRICTED_SCHEMAS"  8.234 KB      46 rows
+. . exported "APEX_040000"."WWV_FLOW_STANDARD_CSS"       9.742 KB      27 rows
+. . exported "APEX_040000"."WWV_FLOW_STANDARD_EVENTS"    7.125 KB      22 rows
+. . exported "APEX_040000"."WWV_FLOW_STANDARD_ICONS"     19.21 KB     382 rows
+. . exported "APEX_040000"."WWV_FLOW_STANDARD_ITEM_TYPES"  5.859 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_STANDARD_JS"        7.203 KB       2 rows
+. . exported "APEX_040000"."WWV_FLOW_SW_CREATE_KEYWORDS"  6.867 KB      10 rows
+. . exported "APEX_040000"."WWV_FLOW_SW_MAIN_KEYWORDS"   10.85 KB     199 rows
+. . exported "APEX_040000"."WWV_FLOW_SW_SET_KEYWORDS"     6.75 KB       4 rows
+. . exported "APEX_040000"."WWV_FLOW_SW_SQLPLUS_CMD"     5.101 KB       8 rows
+. . exported "APEX_040000"."WWV_FLOW_TABS"               17.26 KB      42 rows
+. . exported "APEX_040000"."WWV_FLOW_TOPLEVEL_TABS"      15.47 KB      24 rows
+. . exported "APEX_040000"."WWV_FLOW_TRANSLATABLE_COLS$"  36.78 KB     316 rows
+. . exported "APEX_040000"."WWV_FLOW_TREES"              30.89 KB       6 rows
+. . exported "APEX_040000"."WWV_FLOW_TREE_REGIONS"       32.86 KB      21 rows
+. . exported "APEX_040000"."WWV_FLOW_UPGRADE_PROGRESS"   24.92 KB     107 rows
+. . exported "APEX_040000"."WWV_FLOW_UPG_TAB_NAME_CHANGES"  8.773 KB      42 rows
+. . exported "APEX_040000"."WWV_FLOW_UPG_TAB_OBSOLETE"   6.468 KB      17 rows
+. . exported "APEX_040000"."WWV_FLOW_USER_ACCESS_LOG1$"  8.765 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_USER_ACCESS_LOG2$"  9.101 KB       5 rows
+. . exported "APEX_040000"."WWV_FLOW_USER_ACCESS_LOG_NUM$"  5.882 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSHEET_COL_GROUPS"  11.92 KB      28 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSHEET_COMPUTATION"  12.08 KB       1 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSHEET_CONDITIONS"  21.13 KB      13 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSHEET_GROUP_BY"  50.03 KB       2 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSPACE_REQ_SIZE"  6.867 KB      14 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_INDEXES"         7.640 KB      12 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_IND_COLUMNS"     8.257 KB      29 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_TAB_COLUMNS"     18.44 KB     276 rows
+. . exported "APEX_040000"."WWV_MIG_EXPORTER"            7.382 KB       5 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_OLB_XMLTAGTABLEMAP"  11.28 KB      45 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_XMLTAGTABLEMAP"  10.54 KB      36 rows
+. . exported "APEX_040000"."WWV_MIG_MENU_XMLTAGTABLEMAP"  8.703 KB       7 rows
+. . exported "APEX_040000"."WWV_MIG_RESERVED_WORDS"      5.945 KB      92 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_XMLTAGTABLEMAP"  9.132 KB      15 rows
+. . exported "HR"."COUNTRIES"                            6.367 KB      25 rows
+. . exported "HR"."DEPARTMENTS"                          7.007 KB      27 rows
+. . exported "HR"."EMPLOYEES"                            16.80 KB     107 rows
+. . exported "HR"."JOBS"                                 6.992 KB      19 rows
+. . exported "HR"."JOB_HISTORY"                          7.054 KB      10 rows
+. . exported "HR"."LOCATIONS"                            8.273 KB      23 rows
+. . exported "HR"."REGIONS"                              5.476 KB       4 rows
+. . exported "ICS"."ADMIN"                               5.421 KB       1 rows
+. . exported "ICS"."CATALOG"                             5.984 KB      11 rows
+. . exported "ICS"."DEMO_CUSTOMERS"                      10.11 KB       7 rows
+. . exported "ICS"."DEMO_ORDERS"                         6.906 KB      10 rows
+. . exported "ICS"."DEMO_ORDER_ITEMS"                    7.679 KB      49 rows
+. . exported "ICS"."DEMO_STATES"                         6.242 KB      51 rows
+. . exported "ICS"."DEMO_USERS"                          7.929 KB       2 rows
+. . exported "ICS"."DEPT"                                5.929 KB       4 rows
+. . exported "ICS"."DISCIPLINA"                          6.828 KB       3 rows
+. . exported "ICS"."EMP"                                 8.562 KB      14 rows
+. . exported "ICS"."STUDENTI"                            7.367 KB       9 rows
+. . exported "SYSTEM"."REPCAT$_AUDIT_ATTRIBUTE"          6.328 KB       2 rows
+. . exported "SYSTEM"."REPCAT$_OBJECT_TYPES"             6.882 KB      28 rows
+. . exported "SYSTEM"."REPCAT$_RESOLUTION_METHOD"        5.835 KB      19 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_STATUS"          5.484 KB       3 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_TYPES"           6.289 KB       2 rows
+. . exported "APEX_040000"."APEX$_ACL"                       0 KB       0 rows
+. . exported "APEX_040000"."APEX$_WS_FILES"                  0 KB       0 rows
+. . exported "APEX_040000"."APEX$_WS_HISTORY"                0 KB       0 rows
+. . exported "APEX_040000"."APEX$_WS_LINKS"                  0 KB       0 rows
+. . exported "APEX_040000"."APEX$_WS_NOTES"                  0 KB       0 rows
+. . exported "APEX_040000"."APEX$_WS_ROWS"                   0 KB       0 rows
+. . exported "APEX_040000"."APEX$_WS_TAGS"                   0 KB       0 rows
+. . exported "APEX_040000"."APEX$_WS_WEBPG_SECTIONS"         0 KB       0 rows
+. . exported "APEX_040000"."APEX$_WS_WEBPG_SECTION_HISTORY"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_ALTERNATE_CONFIG"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_ALT_CONFIG_DETAIL"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_APP_BUILD_PREF"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_APP_COMMENTS"           0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_AUTHORIZED_URLS"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_BUGS"                   0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_CLICKTHRU_LOG$"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_CLICKTHRU_LOG2$"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_COMPOUND_CONDITIONS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_CSS_REPOSITORY"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_CUSTOMIZED_TASKS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_DATA_LOAD_BAD_LOG"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_DATA_LOAD_UNLOAD"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_DEBUG"                  0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_DEBUG_MESSAGES"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_DEBUG_MESSAGES2"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_DEVELOPER_LOG"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_DYNAMIC_TRANSLATIONS$"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_EFFECTIVE_USERID_MAP"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_ENTRY_POINTS"           0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_ENTRY_POINT_ARGS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_EVENTS"                 0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_FEATURES"               0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_FEATURE_HISTORY"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_FEATURE_PROGRESS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_FEEDBACK"               0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_FEEDBACK_FOLLOWUP"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_FILE_OBJECTS$PART"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_FLASH_CHARTS"           0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_FLASH_CHARTS_5_DASH"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_FLASH_CHART_SERIES"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_FND_GROUP_USERS"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_FND_USER_GROUPS"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_HNT_ARGUMENT_INFO"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_HNT_COLUMN_DICT"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_HNT_COL_DICT_SYN"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_HNT_GROUPS"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_HNT_LOV_DATA"           0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_HNT_PROCEDURE_INFO"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_HTML_REPOSITORY"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_ICON_BAR_ATTRIBUTES"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_IMAGE_REPOSITORY"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_IMPORT_EXPORT"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_INSTALL_BUILD_OPT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_INSTALL_CHECKS"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_INSTALL_SCRIPTS"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_JOBS"                   0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_JOB_BIND_VALUES"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_LINKS"                  0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_LOCK_PAGE"              0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_LOCK_PAGE_LOG"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_LOG_HISTORY"            0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_MAIL_ATTACHMENTS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_MAIL_LOG"               0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_MAIL_QUEUE"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_MODELS"                 0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_MODEL_PAGES"            0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_MODEL_PAGE_COLS"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_MODEL_PAGE_REGIONS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_NEWS"                   0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_ONLINE_HELP"            0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_ONLINE_HELP_JA"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_PAGES_RESERVED"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_PAGE_CODE_CACHE"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_PAGE_SUBMISSIONS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_PICK_DATABASE_SIZE"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_PLATFORM_PREF"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_PROVISION_SERICE_MOD"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_PURGED_SESSIONS$"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_QB_SAVED_COND"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_QB_SAVED_JOIN"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_QB_SAVED_QUERY"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_QB_SAVED_TABS"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_REGION_CHART_SER_ATTR"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_REGION_REPORT_FILTER"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_REQUEST_VERIFICATIONS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_REQUIRED_ROLES"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_RSCHEMA_EXCEPTIONS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_SHARED_QRY_SQL_STMTS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_SHARED_WEB_SERVICES"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_SHORTCUT_USAGE_MAP"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_STEP_BRANCH_ARGS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_SW_BINDS"               0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_SW_DETAIL_RESULTS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_SW_RESULTS"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_SW_STMTS"               0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_TASKS"                  0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_TASK_DEFAULTS"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_TASK_PROGRESS"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_TEAMDEV_TAG_CLOUD"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_TEAM_FILES"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_TEAM_TAGS"              0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_TEMPLATES$"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_TEMPLATE_PREFERENCES"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_TEMPLATE_THEMES$"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_TRANSLATABLE_TEXT$"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_TREE_STATE"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_UPG_COL_NAME_CHANGES"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_VALIDATIONS"            0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_VERSION$"               0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSHEET_CATEGORIES"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSHEET_GEOCACHE"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSHEET_LOVS"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSHEET_LOV_ENTRIES"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSHEET_NOTIFY"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WORKSPACE_SUMMARY"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_APPLICATIONS"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_APP_SUG_OBJECTS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_COL_VALIDATIONS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_CUSTOM_AUTH_SETUPS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_OPERATIONS"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_PARAMETERS"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_PROCESS_PARMS_MAP"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_WEBPAGES"            0 KB       0 rows
+. . exported "APEX_040000"."WWV_FLOW_WS_WEBSHEET_ATTR"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACCESS"                  0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_COLUMNS"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_FORMS"               0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_FORMS_CONTROLS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_FORMS_MODULES"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_FORMS_PERM"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_GROUPS"              0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_GRPSMEMBERS"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_INDEXES"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_INDEXES_COLS"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_MODULES"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_MODULES_PERM"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_PAGES"               0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_QUERIES"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_RELATIONS"           0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_RELATION_COLS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_REPORTS"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_RPTS_CONTROLS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_RPTS_MODULES"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_RPT_PERMS"           0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_TABLES"              0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_TAB_PERM"            0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_ACC_USERS"               0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FORMS"                   0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_ALERTS"              0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_ATTACHEDLIBRARY"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_BLK_DSA"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_BLK_DSC"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_BLK_ITEMS"           0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_BLK_ITEM_LIE"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_BLK_ITEM_RADIO"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_BLK_ITEM_TRIGGERS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_BLK_RELATIONS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_BLK_TRIGGERS"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_BLOCKS"              0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_CANVAS"              0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_CNVG_COMPOUNDTEXT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_CNVS_GRAPHICS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_CNVS_TABPAGE"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_COORDINATES"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_CPDTXT_TEXTSEGMENT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_EDITOR"              0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_FMB_MENU"            0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_FMB_MENUITEM_ROLE"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_FMB_MENU_MENUITEM"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_FORMMODULES"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_LOV"                 0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_LOVCOLUMNMAPPING"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_MENU"                0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_MENUITEM_ROLE"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_MENUS"               0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_MENUSMODULEROLES"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_MENUS_MENUMODULES"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_MENUS_MODULES"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_MENUS_PROGRAMUNIT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_MENU_MENUITEM"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_MODULEPARAMETER"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_MODULES"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_OBJECTGROUP"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_OBJECTGROUPCHILD"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_PROGRAMUNIT"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_PROPERTYCLASS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_RECORDGROUPCOLUMN"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_RECORDGROUPS"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_REPORT"              0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_REV_APEX_APP"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_REV_BLK_ITEMS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_REV_BLOCKS"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_REV_FORMMODULES"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_REV_LOV"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_REV_LOVCOLMAPS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_TRIGGERS"            0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_VISUALATTRIBUTES"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_FRM_WINDOWS"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_GENERATED_APPLICATIONS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB"                     0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_BLK_DATASOURCECOL"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_BLK_ITEM"            0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_BLK_ITEM_LIE"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_BLK_ITEM_TRIGGER"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_BLK_TRIGGER"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_BLOCK"               0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_CANVAS"              0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_CG_COMPOUNDTEXT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_CG_CT_TEXTSEGMENT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_CNVS_GRAPHICS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_MODULES"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OBJECTLIBRARY"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OBJECTLIBRARYTAB"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_ALERT"           0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_BLK_ITEM"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_BLK_ITEM_TRIGR"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_BLOCK"           0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_CANVAS"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_CNVS_GRAPHICS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_GRAPHICS"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_ITEM"            0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_MENU"            0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_MENU_MENUITEM"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_OBJECTGROUP"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_OB_OBJGRPCHILD"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_REPORT"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_TABPAGE"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_TABPG_GRAPHICS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_VISUALATTRBUTE"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_OLT_WINDOW"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_PROGRAMUNIT"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_PROPERTYCLASS"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_T_TP_GGGGG_CPDTXT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_T_TP_GGGGG_CT_TXST"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_T_TP_GGGG_CPDTXT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_T_TP_GGGG_CT_TXSGT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_T_TP_GGGG_GRAPHICS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_T_TP_GGG_CPDTXT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_T_TP_GGG_CT_TXTSGT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_T_TP_GGG_GRAPHICS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_T_TP_GG_CPDTXT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_T_TP_GG_CT_TXTSGT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_T_TP_GG_GRAPHICS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_T_TP_G_GRAPHICS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_VISUALATTRIBUTE"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_OLB_WINDOW"              0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_PLSQL_LIBS"              0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_PROJECTS"                0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_PROJECT_COMPONENTS"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_PROJECT_TRIGGERS"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_REPORT"                  0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_REV_APEXAPP"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_REV_FORMS"               0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_REV_QUERIES"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_REV_REPORTS"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_REV_TABLES"              0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPTS"                    0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_DATA"                0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_DATASRC"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_DATASRC_GRP"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_DATASRC_SELECT"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_DATA_SUMMARY"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_GRP_DATAITEM"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_GRP_DATAITEM_DESC"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_GRP_DATAITEM_PRIV"      0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_GRP_FIELD"           0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_GRP_FILTER"          0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_GRP_FORMULA"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_GRP_ROWDELIM"        0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_GRP_SUMMARY"         0 KB       0 rows
+. . exported "APEX_040000"."WWV_MIG_RPT_REPORTPRIVATE"       0 KB       0 rows
+. . exported "APEX_040000"."WWV_PURGE_DATAFILES"             0 KB       0 rows
+. . exported "APEX_040000"."WWV_PURGE_EMAILS"                0 KB       0 rows
+. . exported "APEX_040000"."WWV_PURGE_LOG"                   0 KB       0 rows
+. . exported "APEX_040000"."WWV_PURGE_SCHEMAS"               0 KB       0 rows
+. . exported "APEX_040000"."WWV_PURGE_WORKSPACES"            0 KB       0 rows
+. . exported "APEX_040000"."WWV_PURGE_WORKSPACE_RESPONSES"      0 KB       0 rows
+. . exported "FLOWS_FILES"."WWV_FLOW_FILE_OBJECTS$"          0 KB       0 rows
+. . exported "ICS"."APEX$_ACL"                               0 KB       0 rows
+. . exported "ICS"."APEX$_WS_FILES"                          0 KB       0 rows
+. . exported "ICS"."APEX$_WS_HISTORY"                        0 KB       0 rows
+. . exported "ICS"."APEX$_WS_LINKS"                          0 KB       0 rows
+. . exported "ICS"."APEX$_WS_NOTES"                          0 KB       0 rows
+. . exported "ICS"."APEX$_WS_ROWS"                           0 KB       0 rows
+. . exported "ICS"."APEX$_WS_TAGS"                           0 KB       0 rows
+. . exported "ICS"."APEX$_WS_WEBPG_SECTIONS"                 0 KB       0 rows
+. . exported "ICS"."APEX$_WS_WEBPG_SECTION_HISTORY"          0 KB       0 rows
+. . exported "OUTLN"."OL$"                                   0 KB       0 rows
+. . exported "OUTLN"."OL$HINTS"                              0 KB       0 rows
+. . exported "OUTLN"."OL$NODES"                              0 KB       0 rows
+. . exported "SYSTEM"."DEF$_AQCALL"                          0 KB       0 rows
+. . exported "SYSTEM"."DEF$_AQERROR"                         0 KB       0 rows
+. . exported "SYSTEM"."DEF$_CALLDEST"                        0 KB       0 rows
+. . exported "SYSTEM"."DEF$_DEFAULTDEST"                     0 KB       0 rows
+. . exported "SYSTEM"."DEF$_DESTINATION"                     0 KB       0 rows
+. . exported "SYSTEM"."DEF$_ERROR"                           0 KB       0 rows
+. . exported "SYSTEM"."DEF$_LOB"                             0 KB       0 rows
+. . exported "SYSTEM"."DEF$_ORIGIN"                          0 KB       0 rows
+. . exported "SYSTEM"."DEF$_PROPAGATOR"                      0 KB       0 rows
+. . exported "SYSTEM"."DEF$_PUSHED_TRANSACTIONS"             0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_AUDIT_COLUMN"                 0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_COLUMN_GROUP"                 0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_CONFLICT"                     0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_DDL"                          0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_EXCEPTIONS"                   0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_EXTENSION"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_FLAVORS"                      0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_FLAVOR_OBJECTS"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_GENERATED"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_GROUPED_COLUMN"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_INSTANTIATION_DDL"            0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_KEY_COLUMNS"                  0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_OBJECT_PARMS"                 0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_PARAMETER_COLUMN"             0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_PRIORITY"                     0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_PRIORITY_GROUP"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REFRESH_TEMPLATES"            0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPCAT"                       0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPCATLOG"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPCOLUMN"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPGROUP_PRIVS"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPOBJECT"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPPROP"                      0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_REPSCHEMA"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_RESOLUTION"                   0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_RESOLUTION_STATISTICS"        0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_RESOL_STATS_CONTROL"          0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_RUNTIME_PARMS"                0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_SITES_NEW"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_SITE_OBJECTS"                 0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_SNAPGROUP"                    0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_OBJECTS"             0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_PARMS"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_REFGROUPS"           0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_SITES"               0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_TEMPLATE_TARGETS"             0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_USER_AUTHORIZATIONS"          0 KB       0 rows
+. . exported "SYSTEM"."REPCAT$_USER_PARM_VALUES"             0 KB       0 rows
+. . exported "SYSTEM"."SQLPLUS_PRODUCT_PROFILE"              0 KB       0 rows
+Master table "SYSTEM"."SYS_EXPORT_FULL_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYSTEM.SYS_EXPORT_FULL_01 is:
+  C:\TEMP\DUMP\DB11G.DMP
+Job "SYSTEM"."SYS_EXPORT_FULL_01" successfully completed at 23:45:40
